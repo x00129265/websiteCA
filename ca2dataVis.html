@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Website Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="logo.css">
+    <link rel="stylesheet" href="topics.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="pictureAnim.css">
+    <link rel="stylesheet" href="pictureCollection.css">
+	<link rel="stylesheet" href="footer-distributed-with-address-and-phones.css">
+
+
+</head>
+
+<body class="w3-light-grey w3-content" style="max-width:100%; background: black">
+
+
+    <!--
+--------------------------------------//////////////-------------------------------------------
+hoovers:
+https://miketricking.github.io/bootstrap-image-hover/
+--------------------------------------//////////////-------------------------------------------
+ -->
+
+    <!-- Nav bar -->
+    <div class="navbar">
+        <a href="#/home">Home</a>
+        <a href="#/contact">Contact</a>
+        <div class="navbar-right">
+
+            <a style="padding-bottom: 8px;padding-top: 14px;">
+                <form action="http://www.google.com/search" target="_blank" method="get">
+                    <div class="active-cyan-2" style="border-bottom: 0px">
+                        <input type="text" name="q" size="15" maxlength="255" value="" style="color: black" />
+                        <input type="submit" value="Google Search" style="color: black" />
+                    </div>
+                </form>
+            </a>
+
+            <a href="https://ie.linkedin.com/in/janis-tihonovs-58731b117" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            <a href="https://github.com/x00129265" target="_blank" class="linkedin" style="background-color:black"><i class="fa fa-github"></i></a>
+            <a href="#CVdownload" style="margin-right: 12px;"><i class='fas'>&#xf019;</i> CV </a>
+        </div>
+    </div>
+
+
+
+    <!--Logo-->
+    <div class="module">
+        <header>
+            <h1>
+                <b>Janis Tihonovs</b>
+            </h1>
+            <p>Bachelor of Computer Science Graduate</p>
+            <p>Portfolio</p>
+        </header>
+    </div>
+
+    <!--Topics-->
+    <div class="w3-main myContainer">
+        <h2 id="/home"><b>Topics</b></h2>
+        <!-- first row -->
+        <div class="w3-row-padding">
+            <div class="w3-third w3-container w3-margin-bottom">
+                <div class="hovereffect">
+                    <img class="img-responsive" src="profile.png" alt="">
+                    <div class="overlay">
+                        <h2>About me</h2>
+                        <a class="info" href="#/aboutme">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-third w3-container w3-margin-bottom">
+                <div class="hovereffect">
+                    <img class="img-responsive" src="ericsson.png" alt="">
+                    <div class="overlay">
+                        <h2>Experience</h2>
+                        <a class="info" href="#/experience">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-third w3-container w3-margin-bottom">
+                <div class="hovereffect">
+                    <img class="img-responsive" src="skills.png" alt="">
+                    <div class="overlay">
+                        <h2>Skills</h2>
+                        <a class="info" href="#/skills">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- seconds row -->
+        <div class="w3-row-padding">
+            <div class="w3-third w3-container w3-margin-bottom">
+                <div class="hovereffect">
+                    <img class="img-responsive" src="profile.png" alt="">
+                    <div class="overlay">
+                        <h2>Grades</h2>
+                        <a class="info" href="#/grades">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-third w3-container w3-margin-bottom">
+                <div class="hovereffect">
+                    <img class="img-responsive" src="skills.png" alt="">
+                    <div class="overlay">
+                        <h2>Projects</h2>
+                        <a class="info" href="#/projects">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-third w3-container w3-margin-bottom">
+                <div class="hovereffect">
+                    <img class="img-responsive" src="hobbies.png" alt="">
+                    <div class="overlay">
+                        <h2>Hobbies</h2>
+                        <a class="info" href="#/hobbies">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------------------------------          TOPICS:             --------------------------------->
+    <!-- About me ------------------------------------------------------->
+    <div class="w3-main myContainer">
+        <h2 id="/aboutme"><b>About me</b></h2>
+        <div class="w3-row-padding w3-container">
+            <div class="w3-content">
+                <div class="w3-twothird">
+					<div >
+						<p><b>About me:</b></p>
+						<p>
+						I'm young but responsible, respectable and hard working individual that loves putting in effort in things I'm doing yet at the same time I love enjoying life - travelling, being outdoors, eating abnormal amount of food, reading books, doing sports and spending time with family and friends are my greatest joys in life.
+						</p>
+						<p>
+						I consider myself much more mature than my age actually is. I like being best and working hard to be the best at what I'm doing but at the same time I will be also the one that will motivate others to improve. 
+						</p>
+						<p>
+						I choose IT sector fairly spontaneously yet I ended up loving it and now it is not just thing I do in college, at this stage it is a lifestyle. I love learning about technologies and analysing problems and only few things in the world gives you as much joy as the code that finally compiles without errors after weeks or months of hard work.
+						</p>
+						<p><b>Eductation:</b></p>
+						<p> Final year of Bachelor of Science (Honours) course in Computing in college <u><a href="https://www.it-tallaght.ie/" target="_blank"> Institute of Technology Tallaght</a></u>.
+						</p>
+						<p>
+						<b>Previous IT experience:</b>
+						</p>
+						<p>
+						Ericsson - In 2018 I become an intern at one of the biggest IT companies in the world (See description in the profile).
+						</p>
+						
+					</div>
+                </div>
+				<div class="w3-third w3-center tilt pic">
+				  <img src="programmer.png" alt="My profile picture" style="width:100%; padding:10px" >
+				</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Experience ----------------------------------------------->
+    <div class="myContainer">
+        <h2 id="/experience" ><b>Experience</b></h2>
+        <div class="w3-row-padding">
+                <div class="row">
+                    <a href="#openModal1">
+                        <div class="col-sm-6">
+                            <div class="img__wrap" href="#openModal1">
+                                <img class="img__img" src="ericsson2.png" class="img-responsive" style="width:100%; height:300px;" alt="Image">
+                                <div class="img__description">
+
+                                    <h2>Ericsson</h2>
+                                    <p>Did 8 month internship as a software developer.
+                                        Developed 2 projects using programming language - Python which I learned while doing this internship.
+                                        Picked up various IT skills as well as improved my communication skills, teamwork prod... See more</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href="#openModal2">
+                        <div class="col-sm-6">
+                            <div class="img__wrap">
+                                <img class="img__img" src="guinness.png" class="img-responsive" style="width:100%;height:300px" alt="Image">
+                                <div class="img__description">
+                                    <h2>Guinness Storehouse</h2>
+                                    <p>When doing final year in college it can be stressful at times, especially if you are doing a part time job
+                                        at the same time but I just enjoy working here and I believe this job helps me to stay positive minded. Of
+                                        course college is my priority but this job... See more</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            
+        </div>
+    </div>
+
+    <!-- Hidden: -->
+    <!-- The Modal -->
+    <div id="openModal1" class="modalDialog">
+        <div id="overflowTest">
+            <a href="#close" title="Close" class="close">X</a>
+            <a href="https://www.ericsson.com/en" target="_blank">
+                <img src="ericsson2.png" class="w3-hover-opacity" style="width:40%; height:30%;" alt="Image">
+            </a>
+			<p><b>Introduction</b><p>
+            <p>Did 8 month internship as a software developer.
+                Developed 2 projects using programming language - Python which I learned while doing this internship.
+                Picked up various IT skills as well as improved my communication skills, teamwork productivity and much more.
+                Had an absolute blast working here. </p>
+            <p><b>Week 1:</b></p>
+            <p>On my first day I was more excited than scared about my first day. I was introduced to my team, they seemed open
+                and kind. They told me what’s their job and how Ericsson in Athlone operates.
+                I went to the monthly meeting on which I couldn't understand anything, yet I did my best to look smart... it was
+                pretty challenging as I couldn't understand really what they’re saying. It was about statistic and they used a lot
+                of abbreviations that I wouldn’t know. Later I figured that it's too early to consider a carrier in McDonald’s as
+                my colleagues told me that it's normal. Later I figured out that most of those abbreviations and terms work only in
+                the company like ENM, VCS, blades and others.
+                I wasn't given much tasks to do on first few days, mostly I was just learning about company and tried to learn
+                those abbreviations. Since day two I was attending daily scrums on which each member of team would say what they
+                were working on the previous day and what they’re working on now.
+                On week 1 I wasn't really able to say anything even if I did something it seemed like it’s not relevant to what
+                others are doing. </p>
+            <p><b>Week 2:</b></p>
+            I was happy to find out that I will be working with python, so I was given task to self-teach it myself which I was
+            happy about. Within a week I build up a pretty good basic, wrote some small interesting programs and tried to
+            challenge myself as much as I wanted to progress as fast as possible to actually start doing something relevant.
+            I wasn't scared to ask for advices on how to do things and what would my colleagues recommend me to do and they at
+            least seemed like they are more than happy to help me, so I started to feel more comfortable with them.</p>
+            <p><b>Week 3:</b></p>
+            I found out what will be my first REAL job. They gave me a bash code which was showing daily checks on Ericsson
+            system. My knowledge about bash was very limited so I had to quickly pick it up. Bash code that I was given was
+            around 20 A4 pages big and I later figured also out that my code will be at least 10 times bigger in python in order
+            for it to do same functionality as bash. They wanted me to do it because they wanted test cases for it. That gave me
+            great and interesting challenge.
+            I was consulting with person that wrote bash code and he gave me quick and good idea of what I need to achieve. That
+            large code didn't seem as scary as it was at first glance but before starting writing code on day 3 I also asked for
+            python expert to help me out and give me a greater idea of what I have to do from python’s perspective and he gave
+            me clearer idea on where I should better start. Both of them were super helpful and nice to me. After that I started
+            to work on the code.</p>
+
+
+            <p><b>Week 4:</b></p>
+            <p>Working fully on the code. Alongside with my code I have written tests for all my current methods. I try to
+                follow all principles of a good programmer and since my program’s dealing with very large amount of data I try to
+                make my code to run as fast as possible.
+                Now I can follow much better on what’s going on in daily stand up meetings. I understand what they are doing. What
+                are blades, clusters etc. There’s still a lot to learn but I'm doing my best to pick everything up as fast as I
+                can.</p>
+
+            <p><b>Week 5</b></p>
+            <p>I feel like I’m very lucky to work with those people. They know their job well and I can learn from them so much.
+                I'm not afraid to ask questions. Of course I don’t want to overwhelm them with some pointless questions and most of
+                the answers I find using google yet they are super helpful and kind to me and since I'm the youngest member in a
+                team I try share my positive energy in the office, of course within a limits and even thought it might sound
+                unprofessional and not relevant, I think positivity in the office’s one of the keys to have a productive team, I
+                even got friends with some outside the work, which kind of helps too since I don't know many people in Athlone. </p>
+
+            <p>So far my program connects to the server via SSH keys and reads data from it. Data’s than handled by multiple
+                processes and different data require to be handled differently before displayed. I included multiple test cases
+                including unit-testing and mocking.</p>
+
+        </div>
+    </div>
+    <div id="openModal2" class="modalDialog">
+        <div id="overflowTest">
+            <a href="#close" title="Close" class="close">X</a>
+            <a href="https://www.guinness-storehouse.com/en" target="_blank">
+                <img src="guinness.png" class="w3-hover-opacity" style="width:40%; height:30%;" alt="Image">
+            </a>
+			<p><b>Introduction</b><p>
+            <p>When doing final year in college it can be stressful at times, especially if you are doing a part time job at the same time but I just enjoy working here and I believe this job helps me to stay positive minded. Of course college is my priority but this job allows me to manage my time best as possible for me to be on the top of my work in college.</p>
+            <p><b>Some random text:</b></p>
+            <p>On my first day I was more excited than scared about my first day. I was introduced to my team, they seemed open
+                and kind. They told me what’s their job and how Ericsson in Athlone operates.
+                I went to the monthly meeting on which I couldn't understand anything, yet I did my best to look smart... it was
+                pretty challenging as I couldn't understand really what they’re saying. It was about statistic and they used a lot
+                of abbreviations that I wouldn’t know. Later I figured that it's too early to consider a carrier in McDonald’s as
+                my colleagues told me that it's normal. Later I figured out that most of those abbreviations and terms work only in
+                the company like ENM, VCS, blades and others.
+                I wasn't given much tasks to do on first few days, mostly I was just learning about company and tried to learn
+                those abbreviations. Since day two I was attending daily scrums on which each member of team would say what they
+                were working on the previous day and what they’re working on now.
+                On week 1 I wasn't really able to say anything even if I did something it seemed like it’s not relevant to what
+                others are doing. </p>
+            <p><b>Week 2:</b></p>
+            I was happy to find out that I will be working with python, so I was given task to self-teach it myself which I was
+            happy about. Within a week I build up a pretty good basic, wrote some small interesting programs and tried to
+            challenge myself as much as I wanted to progress as fast as possible to actually start doing something relevant.
+            I wasn't scared to ask for advices on how to do things and what would my colleagues recommend me to do and they at
+            least seemed like they are more than happy to help me, so I started to feel more comfortable with them.</p>
+            <p><b>Week 3:</b></p>
+            I found out what will be my first REAL job. They gave me a bash code which was showing daily checks on Ericsson
+            system. My knowledge about bash was very limited so I had to quickly pick it up. Bash code that I was given was
+            around 20 A4 pages big and I later figured also out that my code will be at least 10 times bigger in python in order
+            for it to do same functionality as bash. They wanted me to do it because they wanted test cases for it. That gave me
+            great and interesting challenge.
+            I was consulting with person that wrote bash code and he gave me quick and good idea of what I need to achieve. That
+            large code didn't seem as scary as it was at first glance but before starting writing code on day 3 I also asked for
+            python expert to help me out and give me a greater idea of what I have to do from python’s perspective and he gave
+            me clearer idea on where I should better start. Both of them were super helpful and nice to me. After that I started
+            to work on the code.</p>
+
+
+            <p><b>Week 4:</b></p>
+            <p>Working fully on the code. Alongside with my code I have written tests for all my current methods. I try to
+                follow all principles of a good programmer and since my program’s dealing with very large amount of data I try to
+                make my code to run as fast as possible.
+                Now I can follow much better on what’s going on in daily stand up meetings. I understand what they are doing. What
+                are blades, clusters etc. There’s still a lot to learn but I'm doing my best to pick everything up as fast as I
+                can.</p>
+
+            <p><b>Week 5</b></p>
+            <p>I feel like I’m very lucky to work with those people. They know their job well and I can learn from them so much.
+                I'm not afraid to ask questions. Of course I don’t want to overwhelm them with some pointless questions and most of
+                the answers I find using google yet they are super helpful and kind to me and since I'm the youngest member in a
+                team I try share my positive energy in the office, of course within a limits and even thought it might sound
+                unprofessional and not relevant, I think positivity in the office’s one of the keys to have a productive team, I
+                even got friends with some outside the work, which kind of helps too since I don't know many people in Athlone. </p>
+		
+            <p>So far my program connects to the server via SSH keys and reads data from it. Data’s than handled by multiple
+                processes and different data require to be handled differently before displayed. I included multiple test cases
+                including unit-testing and mocking.</p>
+
+        </div>
+	</div>
+	
+	<!-- Skills  ------------------------------------------------->
+	<div class="w3-main myContainer">
+		<h2 id="/skills"><b>Skills</b></h2>
+		
+        <div class="w3-row-padding w3-container">
+            <div class="w3-content opp">
+				<a>
+                	<span class="col-sm-3">Python</span>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+							<span class="sr-only">80% Complete</span>
+						</div>
+					</div>
+				</a>
+				<a>
+					<span class="col-sm-3">C#</span>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+							<span class="sr-only">75% Complete</span>
+						</div>
+					</div>
+				</a>
+				<a>
+					<span class="col-sm-3">C++</span>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+							<span class="sr-only">75% Complete</span>
+						</div>
+					</div>
+				</a>
+				<a>
+					<span class="col-sm-3">Java</span>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+							<span class="sr-only">75% Complete</span>
+						</div>
+					</div>
+				</a>
+				<a>
+					<span class="col-sm-3">Bash</span>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+							<span class="sr-only">60% Complete</span>
+						</div>
+					</div>
+				</a>
+				<a>
+					<span class="col-sm-3">MongoDB</span>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+							<span class="sr-only">50% Complete</span>
+						</div>
+					</div>
+				</a>
+				<a>
+					<span class="col-sm-3">SQL</span>
+					<div class="progress" style="margin-bottom: 0px;">
+						<div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+							<span class="sr-only">50% Complete</span>
+						</div>
+					</div>
+				</a>
+			</div>
+  		<br>
+  		<hr>
+        </div>
+	</div>
+	
+
+    <!-- My Grades ----------------------------------------------->
+    <div class="myContainer">
+        <h2 id="/grades" ><b>Grades</b></h2>
+        <ul class="nav nav-tabs w3-main myContainer">
+            <li class="nav-item active">
+                <a class="nav-link active" href="#1a" data-toggle="tab" aria-expanded="true">4th year</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#2a" data-toggle="tab" aria-expanded="false">3rd year</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#3a" data-toggle="tab" aria-expanded="false">2nd year</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#4a" data-toggle="tab" aria-expanded="false">1st year</a>
+            </li>
+        </ul>
+
+        <div class="tab-content clearfix w3-main myContainer" style="margin-top: 0px;">
+            <div class="tab-pane active" id="1a">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Subject</th>
+                            <th>Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Enterprise Applications Development 1</td>
+                            <td>N/A</td>
+                        </tr>
+                        <tr>
+                            <td>Interactive Media Design &amp; Visualisation</td>
+                            <td>N/A</td>
+                        </tr>
+                        <tr>
+                            <td>Information Management</td>
+                            <td>N/A</td>
+                        </tr>
+                        <tr>
+                            <td>Applied Machine Learning</td>
+                            <td>N/A</td>
+                        </tr>
+                        <tr>
+                            <td>Enterprise Performance Architecture</td>
+                            <td>N/A</td>
+                        </tr>
+                        <tr>
+                            <td>Project</td>
+                            <td>N/A</td>
+                        </tr>
+                        <tr>
+                            <td>Enterprise Applications Development 2</td>
+                            <td>N/A</td>
+                        </tr>
+                        <tr>
+                            <td>Computational Theory</td>
+                            <td>N/A</td>
+                        </tr>
+                        <tr>
+                            <td>Applied Artificial Intelligence and Deep Learning</td>
+                            <td>N/A</td>
+                        </tr>
+                        <tr>
+                            <td>Algorithms &amp; Computation</td>
+                            <td>N/A</td>
+                        </tr>
+                        <tr>
+                            <td>Project</td>
+                            <td>N/A</td>
+                        </tr>
+                    </tbody>
+                    <h3><b>GPA: N/A</b></h3>
+                </table>
+            </div>
+
+            <div class="tab-pane" id="2a">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Subject</th>
+                            <th>Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Data Structures &amp; Algorithms</td>
+                            <td>B</td>
+                        </tr>
+                        <tr>
+                            <td>Cloud Services &amp; Distribution Computing</td>
+                            <td>C+</td>
+                        </tr>
+                        <tr>
+                            <td>Operating Systems</td>
+                            <td>B</td>
+                        </tr>
+                        <tr>
+                            <td>Advanced Databases</td>
+                            <td>C</td>
+                        </tr>
+                        <tr>
+                            <td>Data Analysis</td>
+                            <td>C</td>
+                        </tr>
+                        <tr>
+                            <td>Web Application Development</td>
+                            <td>D</td>
+                        </tr>
+                    </tbody>
+                    <h3><b>GPA: 2.33</b></h3>
+                </table>
+            </div>
+
+            <div class="tab-pane" id="3a">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Subject</th>
+                            <th>Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Software Development 3</td>
+                            <td>A</td>
+                        </tr>
+                        <tr>
+                            <td>Software Development 4</td>
+                            <td>A</td>
+                        </tr>
+                        <tr>
+                            <td>Software Quality Assurance &amp; Testing</td>
+                            <td>B-</td>
+                        </tr>
+                        <tr>
+                            <td>Networking 1</td>
+                            <td>B+</td>
+                        </tr>
+                        <tr>
+                            <td>Database Design &amp; Programming </td>
+                            <td>B</td>
+                        </tr>
+                        <tr>
+                            <td>Discrete Mathematics 2</td>
+                            <td>A</td>
+                        </tr>
+                        <tr>
+                            <td>Web &amp; Mobile Design &amp; Development</td>
+                            <td>A</td>
+                        </tr>
+                        <tr>
+                            <td>Management Science</td>
+                            <td>A</td>
+                        </tr>
+                        <tr>
+                            <td>Networking 2</td>
+                            <td>B</td>
+                        </tr>
+                        <tr>
+                            <td>Information Security</td>
+                            <td>B-</td>
+                        </tr>
+                        <tr>
+                            <td>Object Oriented Analysis and Design</td>
+                            <td>B</td>
+                        </tr>
+                        <tr>
+                            <td>2nd Year Project</td>
+                            <td>A</td>
+                        </tr>
+                    </tbody>
+                    <h3><b>GPA: 3.46</b></h3>
+                </table>
+            </div>
+
+            <div class="tab-pane" id="4a">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Subject</th>
+                            <th>Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Software Development 1</td>
+                            <td>A</td>
+                        </tr>
+                        <tr>
+                            <td>Software Development 2</td>
+                            <td>A</td>
+                        </tr>
+                        <tr>
+                            <td>Object Oriented System Analysis</td>
+                            <td>B+</td>
+                        </tr>
+                        <tr>
+                            <td>Social Media Communications</td>
+                            <td>B-</td>
+                        </tr>
+                        <tr>
+                            <td>Statistics</td>
+                            <td>A</td>
+                        </tr>
+                        <tr>
+                            <td>Database Fundamentals</td>
+                            <td>A</td>
+                        </tr>
+                        <tr>
+                            <td>Operating System Fundamentals</td>
+                            <td>B+</td>
+                        </tr>
+                        <tr>
+                            <td>Computer Architecture</td>
+                            <td>B+</td>
+                        </tr>
+                        <tr>
+                            <td>Fundament of Interface &amp; Web</td>
+                            <td>B</td>
+                        </tr>
+                        <tr>
+                            <td>Discrete Mathematics</td>
+                            <td>A</td>
+                        </tr>
+                        <tr>
+                            <td>Learning to Learn</td>
+                            <td>B</td>
+                        </tr>
+                        <tr>
+                            <td>Business & Information Sys</td>
+                            <td>B</td>
+                        </tr>
+                    </tbody>
+                    <h3><b>GPA: 3.52</b></h3>
+                </table>
+            </div>
+        </div>
+    </div>
+
+	
+	<!-- Projects ------------------------------------------------->
+	<div class="w3-main myContainer">
+		<h2 id="/projects"><b>Projects</b></h2>
+		
+		<div class="w3-container">
+			<div class="w3-content">
+				<div class="wrapper">
+					<div class="wrap-1">
+					<input type="radio" id="tab-1" name="tabs">
+					<label for="tab-1"><div>Daily checks (Ericsson)</div><div class="cross"></div></label>
+						<div class="content" style="padding-bottom: 0px">
+							<p>
+							Tool that pulls data from servers -  categorizes and analyses data to give user a good view on how the systems are running, then added tests to present whether or not systems are in a good shape.</p>
+							<p> Program was written by myself and I wrote it in python and bash. Best programming practices were applied. Tool is currently used at the company as well. 
+							</p>
+						</div>
+					</div>
+					<div class="wrap-2">
+					<input type="radio" id="tab-2" name="tabs">
+					<label for="tab-2"><div>Graph Uploader (Ericsson)</div><div class="cross"></div></label>
+						<div class="content" style="padding-bottom: 0px">
+							<p>
+							Monthly reports that were generated by excel file took many hours or even days to be uploaded on Confluence (Tool that companies use to present various reports.) as the images had to be extracted, uploaded on right reports, and the reports had to be updated. I was asked to create tool that could automate this process.  
+							</p>
+							<p>
+							I planned out my program, presented the idea and my team was happy with it so I had to build my first real GUI application. It took me around 2.5-3 months to make this tool which allowed reports from excel file to be just simply dragged and dropped on the right report pages. This tool allowed to reduce time spend on the process from days to 10 minutes and once again the tool is currently actively used in Company (It even went as far as India).
+							</p>
+						</div>
+					</div>
+					<div class="wrap-3">
+					<input type="radio" id="tab-3" name="tabs">
+					<label for="tab-3"><div>Online Clothing shop</div><div class="cross"></div></label>
+						<div class="content" style="padding-bottom: 0px">
+							<p>
+							There are thousands of online clothing shops, therefore my job was to work with a group of 3 people and make it better than others.
+							To prove it we used our creative thinking and we came up with some brilliant ideas that other projects might not have. Our plan was to make website which will handle stock over different warehouses in different places (countries). Customer will be getting their product from the nearest warehouse where all the stock is handled. If nearest warehouse doesn't have enough stock - order will be made by main warehouse (if stock is divided over different warehouses in a way no warehouse can do order than other warehouses will send their product to the main warehouse from where the order will be made.)</p>
+							<p>As our online quiz showed the biggest customer’s concern was the size of the clothes they would get if they will order them online. We came up with an alternative idea on how to fix that. What we want to offer customer is to let them give us their exact size parameters such as their shoulder width etc...
+							Loyalty points which you can use later to buy products. Loyalty points also gave us opportunity to make an auction of our shop to make it more interactive.</p>
+							<p>Shop also have all the basic functionality such as commenting on our products and using 'Like' button to show that they liked certain product. Admin and Warehouses are also interacting with the website differently. 
+							</p>
+						</div>
+					</div>
+				  
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+	<!-- Hobbies ------------------------------------------------->
+	<div class="w3-main myContainer">
+		<h2 id="/hobbies"><b>Hobbies</b></h2>
+		
+		<div class="w3-row-padding w3-container">
+			<div class="w3-content">
+				<div class="Newrow">
+					<div class="Newcolumn w3-center">
+						<div class="thumb opp">
+                        <a href="#">
+							<img src="hobbies/img1.png" style="width:70%">
+							<span>Travelling - make memories!</span>
+                        </a>
+						</div>
+						<div class="thumb">
+                        <a href="#">
+							<img src="hobbies/img2.png" style="width:70%">
+							<span>Gaming (Because boys never grow up)</span>
+                        </a>
+						</div>
+						<div class="thumb opp">
+                        <a href="#">
+							<img src="hobbies/img3.png" style="width:70%">
+							<span>Time with familly</span>
+                        </a>
+						</div>
+					</div>
+					<div class="Newcolumn w3-center">
+						<div class="thumb">
+                        <a href="#">
+							<img src="hobbies/img4.png" style="width:70%">
+							<span>Gym</span>
+                        </a>
+						</div>
+						<div class="thumb opp">
+                        <a href="#">
+							<img src="hobbies/img5.png" style="width:70%">
+							<span>Good food</span>
+                        </a>
+						</div>
+						<div class="thumb">
+                        <a href="#">
+							<img src="hobbies/img6.png" style="width:70%">
+							<span>Programming!</span>
+                        </a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+    <!--                            FOOTER                       -->
+
+    <!-- Contact me + Footer -->
+    <div class="w3-container w3-padding-large w3-grey">
+        <h4 id="/contact"><b>Contact Me</b></h4>
+        <hr class="w3-opacity">
+        <form onsubmit="return false">
+            <div class="w3-section">
+                <label>Name</label>
+                <input class="w3-input w3-border" type="text" name="Name">
+            </div>
+            <div class="w3-section">
+                <label>Email</label>
+                <input class="w3-input w3-border" type="text" name="Email">
+            </div>
+            <div class="w3-section">
+                <label>Message</label>
+                <input class="w3-input w3-border" type="text" name="Message">
+            </div>
+            <button id="btnShow">Send Message</button>
+            <div class=" w3-black w3-margin-bottom alert alert-success alert-dismissable">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                Success! message sent successfully.
+            </div>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-distributed w3-padding-32 w3-dark-grey">
+        <div class="w3-row-padding">
+			<div class="col-sm-6">
+				<div class="footer-center">
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>15 Mulberry Cres</span> Dublin 15, Ireland</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+353 085 777777</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:support@company.com">janistihonovs97@gmail.com</a></p>
+				</div>
+				</div>
+			</div>
+
+			<div class="col-sm-6">
+
+				<div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="70%" id="gmap_canvas" src="https://maps.google.com/maps?q=15%20mulberry%20cres&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de/webdesign-frankfurt/"></a></div><style>.mapouter{text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div>
+
+			</div>
+			
+			
+			
+        </div>
+    </footer>
+
+    <div class="w3-black w3-center w3-padding-24">©Janis Tihonovs 2018</a></div>
+    <script src="script.js"></script>
+    <script src="scriptTopic.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+/*Logo*/
+.module {
+  /* The image used */
+  background-image: url("header.png");
+
+  /* Full height */
+  height: 100%; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+}
+.module > header {
+  position: absolute;
+  top: 40%; 
+  left: 0;
+  width: 100%;
+  padding: 20px 10px;
+  background: inherit;
+  background-attachment: fixed;
+  overflow: hidden;
+
+  /* text:*/
+  text-align: center;
+  font-family: "verdana", Times, serif;
+}
+.module > header::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  background: inherit;
+  background-attachment: fixed;
+  -webkit-filter: blur(4px);
+  filter: blur(4px);
+}
+.module > header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.25)
+}
+.module > header > h1 {
+  margin: 0;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+.module > header > p {
+  margin: 0;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+* {
+  box-sizing: border-box;
+}

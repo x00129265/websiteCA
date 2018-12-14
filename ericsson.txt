@@ -1,0 +1,21 @@
+Week 1:
+On my first day I was more excited than scared about my first day. I was introduced to my team, they seemed open and kind. They told me what’s their job and how Ericsson in Athlone operates.
+I went to the monthly meeting on which I couldn't understand anything, yet I did my best to look smart... it was pretty challenging as I couldn't understand really what they’re saying. It was about statistic and they used a lot of abbreviations that I wouldn’t know. Later I figured that it's too early to consider a carrier in McDonald’s as my colleagues told me that it's normal. Later I figured out that most of those abbreviations and terms work only in the company like ENM, VCS, blades and others.
+I wasn't given much tasks to do on first few days, mostly I was just learning about company and tried to learn those abbreviations. Since day two I was attending daily scrums on which each member of team would say what they were working on the previous day and what they’re working on now.
+On week 1 I wasn't really able to say anything even if I did something it seemed like it’s not relevant to what others are doing. 
+Week 2: 
+I was happy to find out that I will be working with python, so I was given task to self-teach it myself which I was happy about.  Within a week I build up a pretty good basic, wrote some small interesting programs and tried to challenge myself as much as I wanted to progress as fast as possible to actually start doing something relevant.
+I wasn't scared to ask for advices on how to do things and what would my colleagues recommend me to do and they at least seemed like they are more than happy to help me, so I started to feel more comfortable with them.
+Week 3:
+I found out what will be my first REAL job. They gave me a bash code which was showing daily checks on Ericsson system. My knowledge about bash was very limited so I had to quickly pick it up.  Bash code that I was given was around 20 A4 pages big and I later figured also out that my code will be at least 10 times bigger in python in order for it to do same functionality as bash. They wanted me to do it because they wanted test cases for it.  That gave me great and interesting challenge. 
+I was consulting with person that wrote bash code and he gave me quick and good idea of what I need to achieve. That large code didn't seem as scary as it was at first glance but before starting writing code on day 3 I also asked for python expert to help me out and give me a greater idea of what I have to do from python’s perspective and he gave me clearer idea on where I should better start. Both of them were super helpful and nice to me. After that I started to work on the code.
+
+
+Week 4:
+Working fully on the code. Alongside with my code I have written tests for all my current methods. I try to follow all principles of a good programmer and since my program’s dealing with very large amount of data I try to make my code to run as fast as possible.
+Now I can follow much better on what’s going on in daily stand up meetings. I understand what they are doing. What are blades, clusters etc. There’s still a lot to learn but I'm doing my best to pick everything up as fast as I can. 
+
+Week 5
+I feel like I’m very lucky to work with those people. They know their job well and I can learn from them so much. I'm not afraid to ask questions. Of course I don’t want to overwhelm them with some pointless questions and most of the answers I find using google yet they are super helpful and kind to me and since I'm the youngest member in a team I try share my positive energy in the office, of course within a limits and even thought it might sound unprofessional and not relevant, I think positivity in the office’s one of the keys to have a productive team, I even got friends with some outside the work, which kind of helps too since I don't know many people in Athlone. 
+
+So far my program connects to the server via SSH keys and reads data from it. Data’s than handled by multiple processes and different data require to be handled differently before displayed. I included multiple test cases including unit-testing and mocking. 
